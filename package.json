@@ -1,0 +1,17 @@
+{
+  "name": "logika",
+  "version": "1.0.0",
+  "description": "Jogo de lógica",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "cp node_modules/bootstrap/dist/css/bootstrap.min.css app\\css\\ && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js app\\js\\ && http-server app/",
+    "watch": "livereload app/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3"
+  }
+}
